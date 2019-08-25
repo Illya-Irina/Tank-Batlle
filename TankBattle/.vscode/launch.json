@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "TankBattle (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TankBattle Mac Debug Build",
+			"program": "/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Binaries/Mac/TankBattle-Mac-Debug.app/Contents/MacOS/TankBattle-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattle (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TankBattle Mac DebugGame Build",
+			"program": "/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Binaries/Mac/TankBattle-Mac-DebugGame.app/Contents/MacOS/TankBattle-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattle (Development)",
+			"request": "launch",
+			"preLaunchTask": "TankBattle Mac Development Build",
+			"program": "/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Binaries/Mac/TankBattle.app/Contents/MacOS/TankBattle",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattle (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "TankBattle Mac Shipping Build",
+			"program": "/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Binaries/Mac/TankBattle-Mac-Shipping.app/Contents/MacOS/TankBattle-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattle (Test)",
+			"request": "launch",
+			"preLaunchTask": "TankBattle Mac Test Build",
+			"program": "/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Binaries/Mac/TankBattle-Mac-Test.app/Contents/MacOS/TankBattle-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattleEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TankBattleEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/TankBattle.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattleEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TankBattleEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/TankBattle.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "TankBattleEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "TankBattleEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/TankBattle.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.22",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/Users/Shared/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/TankBattle.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/Users/Shared/Epic Games/UE_4.22"
+		}
+	]
+}

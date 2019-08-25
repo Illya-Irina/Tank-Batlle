@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Content": true,
+		"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/.vscode": true,
+		"/Users/illya/Documents/Unreal Projects/Tank Battle/TankBattle/Intermediate": true
+	}
+}
